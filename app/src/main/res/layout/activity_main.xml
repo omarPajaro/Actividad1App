@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/system_neutral1_300"
+    tools:context=".MainActivity"
+    tools:ignore="NewApi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-64dp">
+
+
+        <TextView
+            android:id="@+id/titulounoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:hint="@string/Txtitulo"
+            android:text="Calcular Salario final"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/sbaseEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/entsbase"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/material_dynamic_neutral_variant10"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/hextrasEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/enthextras"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/bonificacionnEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/entbonificacion"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="@color/design_default_color_on_secondary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/calculadorButton"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:drawable/bottom_bar"
+            android:text="@string/boton"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:iconTint="@color/design_default_color_surface"
+            app:rippleColor="@color/black"
+            tools:ignore="VisualLintButtonSize" />
+
+
+        <TextView
+            android:id="@+id/rsultadoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/resultado"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Actividad1App</string>}
+    <string name="Txtitulo">Calcular Salario final</string>}
+    <string name="entsbase">Introducir salario base</string>
+    <string name="enthextras">Introducir horas extras</string>}
+    <string name="entbonificacion">Bonificacion</string>}
+    <string name="resultado">Resultado</string>
+    <string name="boton">Calcular</string>
+
+</resources>
